@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #7272f3d5;
+    font-family: 'Libre Baskerville', serif;
+    margin: 50px 80px 100px 50px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(230, 219, 219);
+    font-size: 36px;
+
+}
+
+p, h2, h3, h4 {
+    color: white;
+}
+
+div p {
+    font-size: 18px;
+}
+
+div h2 {
+    font-size: 24px;
+}
+
+img {
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.avaliation {
+    text-align: justify;
+}
+
+a {
+    color: pink;
+}
+
+h3 {
+    align-items: center;
+    position: relative;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+   .embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
