@@ -1,0 +1,28 @@
+body {
+    width: 750;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;
+}
+
+h1 {
+    background-color: #efefef;
+    padding: 10px;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+blockquote {
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
