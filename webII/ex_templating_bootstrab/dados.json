@@ -1,0 +1,22 @@
+{
+    "Soccer": {
+        "name": "soccer",
+        "sbscribers": 800000,
+        "description": "The football subreddit. News, results and discussion abaut the beautiful game.",
+        "posts": [
+            {
+                "title": "Marten de Roon to make pizza for more tha 1,000 people in Bergano if Atalanta...",
+                "author": "joeextreme"
+            },
+            {
+                "title": "Stephan de Roon to make pizza for more tha 1,000 people in Bergano if Atalanta...",
+                "author": "odd person"
+            },
+            {
+                "title": "OFFICIAL: de Roon to make pizza for more tha 1,000 people in Bergano if Atalanta...",
+                "author": "joeextreme"
+            }
+        ]
+
+    }
+}
