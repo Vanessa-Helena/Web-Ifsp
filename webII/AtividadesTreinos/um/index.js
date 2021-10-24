@@ -14,7 +14,11 @@ app.get('/', (req, res)=>{
 });
 
 app.get('/resposta', (req, res)=>{
-    const { numero, resultado } = req.body;
+    /*const queryString = req.query;
+    const urlParams = new URLSearchParams(queryString);
+    const num = urlParams.get('numero')
+    const res = urlParams.get('resultado')*/
+    const { numero, resultado } = req.query;
     res.render('resposta.ejs', {numero, resultado});
 });
 
