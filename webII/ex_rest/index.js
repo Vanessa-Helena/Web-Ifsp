@@ -10,6 +10,41 @@ app.use(express.json());// transforma as informações em json
 app.set('view engine', 'ejs');
 app.set('viwes', path.join(__dirname, 'views'));
 
+const comentarios = [
+    {
+        username: 'Todd',
+        comment: 'lol that is so funny!'
+    },
+    {
+        username: 'Skyler',
+        comment: 'I like to go birdwatching with my dog'
+    },
+    {
+        username: 'SkBerBoi',
+        comment: 'Plz delete your account, Todd'
+    },
+    {
+        username: 'onlysayswoof',
+        comment: 'woof woof woof'
+    },
+];
+
+
+
+app.get('/comentarios', (req, res)=>{
+    res.render('comentarios/index', {comentarios});
+});
+
+app.get('/comentarios/novo', (req, res)=>{
+    res.render('comentarios/novo');
+});
+
+app.post('/comentarios', (req, res)=>{
+    const {nomeUsuario, comentario} = req.body;
+    comentarios.push({username: nomeUsuario, comment: comentario});
+    res.redirect('/comentarios')
+});
+
 app.get('/', (req, res)=>{
     res.render('home.ejs');
 });
