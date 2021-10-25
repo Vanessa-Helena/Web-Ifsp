@@ -59,6 +59,6 @@ app.post('/pedidos', (req, res)=>{
 });
 
 
-app.listen(80, ()=>{
-    console.log("Ouvindo na porta 80")
+app.listen(3000, ()=>{
+    console.log("Ouvindo na porta 3000")
 });
