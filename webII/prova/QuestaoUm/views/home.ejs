@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="/resposta" method="get">
+        <section>
+            <label for="numero">Digite um número maior que 0: </label>
+            <input type="number" id="inNumero" placeholder="Número" name="numero">
+        </section>
+        <section>
+            <label for="numero">Digite um caractere S ou P: </label>
+            <input type="text" id="inText" placeholder="Text" name="texto">
+        </section>
+        <br>
+        <button id="btEnviar">Enviar</button>
+    </form>
+    <script src="/public/home.js"></script>
+</body>
+</html>
