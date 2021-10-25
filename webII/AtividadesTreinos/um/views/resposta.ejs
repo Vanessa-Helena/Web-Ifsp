@@ -7,16 +7,16 @@
     <title>Formulário</title>
 </head>
 <body>
-    <h1>Valor N</h1>
+    <h1>Fatorial <%= numero%></h1>
     
     <% var fatorial = numero; 
-       var resultado = fatorial; 
-    for (var i = 1; i < fatorial; i++) {
-       %>resultado *= i; %>
-    }
+       var resultado = fatorial; %>
+    <%for (var i = 1; i < fatorial; i++) {%>
+        <%   resultado *= i; %>
+    <%}%>
     <% console.log(resultado); %>
 
-    <h1>O numero é: <%= numero%>  </h1>
+    <h1>O numero é: <%- resultado%>  </h1>
     
 </body>
 </html>
